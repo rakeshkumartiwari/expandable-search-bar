@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #1c2736;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5em;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  background: #006eff;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.6em;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+input::-webkit-input-placeholder {
+  color: #83b9ca;
+}
+
+input:-ms-input-placeholder {
+  color: #83b9ca;
+}
+
+input::-ms-input-placeholder {
+  color: #83b9ca;
+}
+
+input::placeholder {
+  color: #83b9ca;
+}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  width: 22px;
+  margin: 18px 0 0 18px;
+  position: absolute;
+  cursor: pointer;
+}
+
+p {
+  color: #6a9ee2;
+  text-transform: uppercase;
+  font-size: .8em;
+  text-align: left;
+  margin-left: 50px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.search-contain {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 4px white solid;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
